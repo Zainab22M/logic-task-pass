@@ -1,1 +1,41 @@
+# Task 1
+String = "human"
+new_string =String.replace("a","")
 
+print(new_string)
+
+
+#Task 2
+prime_numbers=[]
+for i in range(2,500):
+      falg=True
+      for j in range(2,i):
+        if (i%j==0):
+          falg=False
+          break
+      if falg:
+        prime_numbers.append(i)
+print("\n" , prime_numbers,"\n")    
+
+
+#Task 3
+
+string = "welcome to the world of ";
+
+newlist=[]
+
+for j in string:
+
+    if j not in newlist:
+
+        newlist.append(j)
+
+        count=0
+
+        for i in range(len(string)):
+
+            if j==string[i]:
+
+                count+=1
+
+        print("{},{}".format(j,count))
