@@ -20,7 +20,7 @@ print("\n" , prime_numbers,"\n")
 
 #Task 3
 
-string = "welcome to the world of ";
+string = "welcome to the world";
 
 newlist=[]
 
